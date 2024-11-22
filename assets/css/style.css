@@ -49,7 +49,7 @@
 
 
  /* Style the hero section */
- .hero {
+ /*.hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,3 +57,4 @@
     color: #FFEBD4;
     padding: 8rem 0;
 }
+    */
