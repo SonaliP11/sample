@@ -1,17 +1,49 @@
+ /* Apply the Handlee font to all headings */
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Handlee', cursive;
+ }
 
-/*Navbar styles*/
+ 
+ /* Make the navbar sticky */
+ .navbar {
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     background-color: #002639;
+ }
 
-.navbar{
-        background-color: #002639;
+ /*Navbar styles*/
+.navbar-nav {
+    display: flex;
+    gap: 1rem;
 }
+ .navbar {
+     background-color: #006667;
+     color: white;
+     padding: 0.5rem 1rem;
+     font-size: 1.2rem;
+     font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
 
-.navbar a{
+    .navbar a {
         color: white;
-        hover: none;
+    }
 
-/*
+.navbar-custom .nav-link,
+.navbar-custom .nav-link.active {
+    color: white;
 }
-#nav-active {
-        color: #ffcc00;
+
+.navbar-custom .nav-link:hover {
+    color: #f8f9fa;
+
+
+.button.navbar-toggler-icon {
+    color: white;
 }
-        */
