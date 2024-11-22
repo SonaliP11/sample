@@ -2,5 +2,16 @@
 /*Navbar styles*/
 
 .navbar{
-        background-color: #006667;
+        background-color: #002639;
 }
+
+.navbar a{
+        color: white;
+        hover: none;
+
+/*
+}
+#nav-active {
+        color: #ffcc00;
+}
+        */
