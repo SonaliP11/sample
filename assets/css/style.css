@@ -1,8 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+ /* CSS Variables */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Outfit", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
 
- 
  
  /* Apply the Handlee font to all headings */
  
@@ -49,12 +57,26 @@
 
 
  /* Style the hero section */
- /*.hero {
-    background-image: url('../images/hero.jpg');
+
+
+ #hero {
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #FFEBD4;
-    padding: 8rem 0;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    color: white;
+    padding-left: 30%;
 }
-    */
+
+#cover-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#hero > h1 {
+    font-size: 3rem;
+    font-family: var(--secondary-font);
+    margin-left: 20px;
+}
