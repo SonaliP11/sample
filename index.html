@@ -51,33 +51,58 @@
 
 
     <!-- Hero Section -->
-    
+
     <header class="hero text-center" id="mainContent">
         <div class="container">
             <h1 class="display-4">
                 <span class="hero-part-1">Small steps lead to</span>
                 <span class="hero-part-2">BIG CHANGES</span>
             </h1>
-            <p class="lead">We are dedicated to improving your overall wellbeing.</p>
-            <a href="contact.html" class="btn btn-light btn-lg" role="button" tabindex="0">Need help</a>
+            <h4 class="lead">Your mental health is our priority.</h4>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary sharp-corners custom-button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Need Help!
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>If you need help, please fill in your details and we will get in touch with you promptly.</p>
+
+                            <form class="row g-3">
+                                <div class="col-lg-6">
+                                    <label for="inputName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="inputName" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="inputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="inputNumber" class="form-label">Number</label>
+                                    <input type="number" class="form-control" id="inputNumber" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <button type="submit" class="btn btn-primary custom-button">
+                                        Submit!
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-         
 
-
-<!--
-        <header>
-        <section id="hero">
-            <div id="cover-text" class="position-relative">
-                <img src="assets/images/try.jpg" class="img-fluid w-100" alt="Girl with balloons"
-                    style="height: 80vh; object-fit: cover;">
-                <div class="position-absolute top-50 start-0 translate-middle-y text-center">
-                    <h1 class="display-2 text-black">Small steps lead to big changes</h1>
-                </div>
-            </div>
-        </section>
-    </header> -->
 
 
     <!-- Main Section -->
@@ -112,7 +137,7 @@
                         <div class="card shadow" tabindex="0">
                             <img src="assets/images/issues.jpg" alt="Stress issues" class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Mental Health Issues</h5>
+                                <h5 class="card-title">Common Issues</h5>
                                 <p class="card-text">Learn about common mental health issues and how to manage them
                                     effectively.</p>
 
@@ -123,7 +148,7 @@
                         <div class="card shadow" tabindex="0">
                             <img src="assets/images/support.jpeg" class="card-img-top" alt="Mental Health Support">
                             <div class="card-body">
-                                <h5 class="card-title">Mental Health Support</h5>
+                                <h5 class="card-title">Health Support</h5>
                                 <p class="card-text">We offer support and resources to help you take care of your mental
                                     health.</p>
                             </div>
@@ -141,13 +166,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-md-start mb-3 mb-md-0">
-                    <p>Terms of Services</p>
+                    <p><span>Terms of Services</p></span>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="https://www.facebook.com"  target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
                         aria-label="Visit our Facebook page" class="me-2"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="Follow us on Twitter" class="me-2"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter"
+                        class="me-2"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
                         aria-label="Follow us on Instagram" class="me-2"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
