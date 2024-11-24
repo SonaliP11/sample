@@ -69,6 +69,7 @@ h2 {
 
 .navbar-custom .nav-link:hover {
     color: #f8f9fa;
+}
     .navbar-toggler-icon {
     color: white;
 }
@@ -77,8 +78,10 @@ h2 {
  /* Style the hero section */
 
 
- #hero {
+ .hero-section {
+    background: url('../images/hero.jpg') no-repeat center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     display: flex;
@@ -88,18 +91,23 @@ h2 {
     padding-left: 30%;
 }
 
-#cover-text {
+
+
+/*#cover-text {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     
-}
-
-#hero > h1 {
+}*/
+/*
+#hero-section > h1 {
     font-size: 3rem;
     font-family: var(--secondary-font);
     text-align: center;
     margin-right: 20px;
 }
+    */
+
+
 
 /* Main section styles */
 h5{
